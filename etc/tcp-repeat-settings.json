@@ -1,0 +1,6 @@
+{
+  "pathToTcpreplay": "/opt/local/bin/tcpreplay",
+  "pcapsDir": "/var/tcprepeat/pcaps",
+  "defaultNic": null,
+  "defaultSpeed": "pcap"
+}

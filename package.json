@@ -1,0 +1,36 @@
+{
+  "name": "tcp-repeat-server",
+  "version": "0.0.1",
+  "description": "Node.js server for tcp-repeat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KensingtonTech/tcp-repeat-server.git"
+  },
+  "keywords": [
+    "tcpreplay",
+    "tcp-repeat"
+  ],
+  "author": "Timothy Underhay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KensingtonTech/tcp-repeat-server/issues"
+  },
+  "homepage": "https://github.com/KensingtonTech/tcp-repeat-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cap": "^0.2.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "multer": "^1.3.0",
+    "network-interfaces": "^1.1.0",
+    "socket.io": "^2.1.1",
+    "sprintf-js": "^1.1.1",
+    "uuid": "^3.2.1",
+    "winston": "^2.4.2"
+  }
+}
